@@ -86,6 +86,15 @@ body {
   padding: 12px 12px 12px 24px;
   gap: 50px;
   margin-top: 36px;
+  transition: opacity 0.2s ease-in-out;
+}
+@media (hover: hover) {
+  .demo-section__cta:hover {
+    opacity: 0.9;
+  }
+}
+.demo-section__cta:active {
+  opacity: 0.9;
 }
 .demo-section__cta p {
   font-size: 18px;

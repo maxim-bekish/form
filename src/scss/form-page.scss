@@ -22,7 +22,6 @@ body {
    background-color: rgba(240, 244, 252, 1);
    padding: 24px;
 
-
    &__header {
       display: flex;
       justify-content: flex-end;
@@ -106,6 +105,18 @@ body {
       line-height: 24.59px;
       padding: 24px;
       color: rgba(31, 66, 132, 1);
+
+      &:-webkit-autofill {
+         caret-color: rgba(31, 66, 132, 1);
+         -webkit-box-shadow: 0 0 0 1000px rgba(215, 226, 246, 1) inset;
+         box-shadow: 0 0 0 1000px rgba(215, 226, 246, 1) inset;
+         -webkit-text-fill-color: rgba(31, 66, 132, 1);
+         font-size: 18px;
+         line-height: 24.59px;
+         font-family: $font;
+         font-weight: $w-5; 
+      }
+
 
       &:hover+.auth-form__label,
       &:hover {
