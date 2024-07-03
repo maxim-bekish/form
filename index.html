@@ -5,10 +5,65 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Form</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/src/scss/reset.css">
+   <link rel="stylesheet" href="/dist/form-page.css">
 </head>
 
 <body>
-   <h1>Start</h1>
+   <section class="auth-form">
+      <div class="auth-form__header">
+         <button type="button" class="auth-form__close-button">
+            <svg class="auth-form__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+               <use href="assets/svg/icon.svg#icon-closed"></use>
+            </svg>
+         </button>
+      </div>
+      <div class="auth-form__content">
+         <h2 class="auth-form__title">
+            Войти в систему
+         </h2>
+         <form action="#" class="auth-form__form">
+            <div class="auth-form__form-group">
+               <div class="auth-form__input-wrapper">
+                  <div class="auth-form__input-container">
+                     <input type="text" name="login" placeholder=" " id="login" class="auth-form__input">
+                     <label for="login" class="auth-form__label">
+                        Email/Телефон
+                     </label>
+                  </div>
+                  <div class="auth-form__input-container">
+                     <input placeholder=" " type="password" name="password" id="password" class="auth-form__input">
+                     <label for="password" class="auth-form__label">
+                        Пароль
+                     </label>
+                  </div>
+               </div>
+               <div class="auth-form__checkbox-container">
+                  <input type="checkbox" name="remember" id="remember" class="auth-form__checkbox">
+                  <label for="remember" class="auth-form__checkbox-label">
+                     Запомнить пароль
+                  </label>
+               </div>
+               <div class="auth-form__forgot-password">
+                  <a href="#" target="_blank" rel="noopener noreferrer" class="auth-form__forgot-link">
+                     Восстановить
+                  </a>
+               </div>
+            </div>
+            <div class="auth-form__buttons">
+               <button type="button" class="auth-form__button auth-form__button--login">
+                  Войти
+               </button>
+               <button type="button" class="auth-form__button auth-form__button--register">
+                  Зарегистрироваться
+               </button>
+            </div>
+         </form>
+      </div>
+   </section>
 </body>
 
 </html>

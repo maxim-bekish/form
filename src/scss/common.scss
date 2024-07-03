@@ -1,0 +1,31 @@
+@import 'root';
+
+input,
+button,
+section,
+span,
+form,
+p,
+h1,
+h2,
+h3,
+label,
+a,
+div,
+li {
+   font-family: $font;
+   font-weight: $w-4;
+   box-sizing: border-box;
+}
+
+input,
+button {
+   outline: none !important;
+}
+
+button {
+   cursor: pointer;
+   background: none;
+   border: 0;
+}
+
