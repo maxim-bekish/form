@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "scss:form": "sass src/scss/form-page.scss dist/form-page.css --watch",
-    "scss:content": "sass src/scss/content-page.scss dist/content-page.css --watch",
-    "scss:watch": "sass --watch src/scss/form-page.scss:dist/form-page.css src/scss/content-page.scss:dist/content-page.css"
+    "scss:watch": "sass --watch src/scss/form-page.scss:dist/form-page.css src/scss/demo-page.scss:dist/demo-page.css"
   },
   "keywords": [],
   "author": "",
