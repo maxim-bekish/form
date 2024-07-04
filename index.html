@@ -8,9 +8,10 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="/src/scss/reset.css">
-   <link rel="stylesheet" href="/dist/form-page.css">
-   <script type="module" defer src="/index.js"></script>
+   <link rel="stylesheet" href="src/scss/reset.css">
+   <link rel="stylesheet" href="dist/form-page.css">
+   <script type="module" defer src="src/helper.js"></script>
+   <script type="module" defer src="index.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
       <div class="auth-form__header">
          <button type="button" class="auth-form__close-button">
             <svg class="auth-form__close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-               <use href="/assets/svg/icon.svg#icon-closed"></use>
+               <use href="assets/svg/icon.svg#icon-closed"></use>
             </svg>
          </button>
       </div>
@@ -26,7 +27,7 @@
          <h2 class="auth-form__title">
             Войти в систему
          </h2>
-         <form id="authForm" action="/src/demo.html" class="auth-form__form">
+         <form id="authForm" action="src/demo.html" class="auth-form__form">
             <div class="auth-form__form-group">
                <div class="auth-form__input-wrapper">
                   <div class="auth-form__input-container">

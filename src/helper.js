@@ -7,7 +7,8 @@ export const getLocal = (name) => {
 }
 
 const isValidLogin = (login) => {
-   const pattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+$/;
+   const pattern = /^(?:[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+|\+\d{1,3}\s?\(?\d{1,4}\)?[-.\s]?\d{1,5}[-.\s]?\d{1,5}[-.\s]?\d{1,5})$/;
+
    return { valid: pattern.test(login), value: login };
 }
 
