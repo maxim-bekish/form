@@ -77,6 +77,11 @@ body {
   line-height: 27.2px;
   color: rgb(114, 114, 114);
 }
+.demo-section__description span {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 27.2px;
+}
 .demo-section__cta {
   display: flex;
   justify-content: space-between;

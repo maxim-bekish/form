@@ -51,7 +51,15 @@ body {
       font-size: 17px;
       line-height: 27.2px;
       color: rgba(114, 114, 114, 1);
+
+      span {
+         font-size: 19px;
+         font-weight: $w-5;
+         line-height: 27.2px;
+      }
    }
+
+
 
    &__cta {
       display: flex;
